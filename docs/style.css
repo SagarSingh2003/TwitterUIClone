@@ -764,6 +764,10 @@ h1{
 }
 
 
+a#show-card{
+    border: 0.0001px solid #36393a;
+    border-radius: 50px;
+}
 
 
 
