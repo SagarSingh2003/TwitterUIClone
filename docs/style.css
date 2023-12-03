@@ -397,7 +397,7 @@ h1{
 }
 
 .content-section header ul li:hover{
-    background-color: #181818;
+    background-color: rgba(24 , 24 , 24 , 0.5);
     color: white;
     border-bottom: 3px solid #1D79E7;
     /* border-top:  3px solid #181818; */
