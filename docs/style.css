@@ -62,7 +62,7 @@ body{
 nav{
     width: 45%;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,7 +139,16 @@ nav > ul li.button:hover{
 }
 
 section.pfp-box{
-    width: 100% !important;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1 !important;
+}
+
+section.promotion-pfp{
+    margin-left: 70px !important;
+    flex-shrink: 1 !important;
 }
 
 .pfp-box img{
@@ -276,7 +285,10 @@ nav ul li:hover{
 .promote-section section.promote-profiles a{
     color: #1E73E7;
     padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: none;
+
+    
 }
 
 .promote-section .spaces-section span + span{
@@ -297,6 +309,12 @@ nav ul li:hover{
     padding-left: 20px;
 }
 
+
+.promote-profiles{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
 
 
 /* ===========trending-cards-sub-section================ */
@@ -367,6 +385,7 @@ h1{
 
 .content-section header{
     margin: 0;
+    text-align: center;
 }
 
 .content-section header ul{
@@ -415,8 +434,9 @@ h1{
 
 .content-section header ul li{
     
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+
     display: inline-block;
     height: 44px;
     /* border-bottom: 2px solid #1D79E7; */
@@ -654,6 +674,7 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-shrink: 2;
     padding-bottom: 20px;
 }
 
